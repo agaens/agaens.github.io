@@ -1,0 +1,19 @@
+{
+  "name": "conquer-template",
+  "version": "1.0.0",
+  "description": "WeSell-temp",
+  "main": "index.js",
+  "scripts": {
+    "b": "node-sass -r sass -o css",
+    "w": "node-sass -rw sass -o css",
+    "watch": "npm run b && npm run w"
+  },
+  "author": "Alex Gaensler",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.10.0",
+    "normalize.css": "^8.0.0",
+    "sudo": "^1.0.3",
+    "surge": "^0.20.1"
+  }
+}
